@@ -2,7 +2,7 @@
   "name": "@rbxts/lerp",
   "version": "1.0.0",
   "description": "",
-  "main": "out/init.lua",
+  "main": "src/init.lua",
   "scripts": {
     "build": "rbxtsc",
     "watch": "rbxtsc -w",
@@ -11,9 +11,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "types": "out/index.d.ts",
+  "types": "src/index.d.ts",
   "files": [
-    "out"
+    "src"
   ],
   "publishConfig": {
     "access": "public"
