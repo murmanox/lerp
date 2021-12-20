@@ -468,7 +468,7 @@ do
 end
 
 return function(start_value, end_value, alpha)
-	local type = typeOf(start_value)
+	local type = typeof(start_value)
 	if not Lerps[type] then error("Unable to Lerp type of " .. type) end
 	
 	return Lerps[type](start_value, end_value, alpha)
